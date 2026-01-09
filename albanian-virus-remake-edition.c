@@ -1,5 +1,6 @@
 #include <windows.h>
 
+
 int WINAPI WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, LPSTR lpCmdLine, int nShowCmd)
 {     
     int selection = MessageBox(
@@ -8,6 +9,7 @@ int WINAPI WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, LPSTR lpCmdLine
         "VIRUS ALERT !!!!!!!!!",
         MB_ICONERROR | MB_YESNO 
     );
+    
     
     if (selection == 6)
     {
